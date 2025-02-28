@@ -8,13 +8,13 @@ function moura() {
         qual = 'Visitante'
     }
     if (hora >= 7 && hora < 12) {
-        res.innerHTML = `Bom dia,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama ${qual}`
+        res.innerHTML = `olá Bom dia,Seja Bem Vindo a nossa Webrádio Torre Forte, Jesus Te ama e certamente tem uma palavra e um louvor para o seu coração ${qual}`
         img.src = './img/1000448259-removebg-preview (2).png'
     } else if (hora < 18) {
-        img.src = '../img/1000448259-removebg-prévia (2).png';
-        res.innerHTML = `Boa Tarde,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama ${qual}`
+        img.src = '../img/1000448259-removebg-preview (2).png';
+        res.innerHTML = `Olá Boa Tarde,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama e certamente tem uma palavra e um louvor para o seu coração ${qual}`
     } else if (hora < 23) {
-        img.src = './img/1000448259-removebg-prévia (2).png'
-        res.innerHTML = `Boa Noite,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te Ama ${qual}`
+        img.src = './img/1000448259-removebg-preview (2).png'
+        res.innerHTML = `Olá Boa Noite,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te Ama e certamente tem uma palavra e um louvor para o seu coração ${qual}`
     }
 }
