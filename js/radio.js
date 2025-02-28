@@ -9,7 +9,7 @@ function moura() {
     }
     if (hora >= 7 && hora < 12) {
         res.innerHTML = `Bom dia,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama ${qual}`
-        img.src = './img/1000448259-removebg-prévia (2).png'
+        img.src = './img/1000448259-removebg-preview (2).png'
     } else if (hora < 18) {
         img.src = '../img/1000448259-removebg-prévia (2).png';
         res.innerHTML = `Boa Tarde,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama ${qual}`
