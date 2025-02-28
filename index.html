@@ -21,9 +21,25 @@
     </header>
     <section>
         <div id="audio">
-            <audio autoplay="autoplay" controls="controls">
-                <source src="http://uk26freenew.listen2myradio.com:24936" type="audio/mp3" />
-            </audio>
+            <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+<script type="text/javascript">
+MRP.insert({
+'url':'https://cc2.streammaximum.com:20003/stream',
+'lang':'pt',
+'codec':'mp3',
+'volume':92,
+'autoplay':true,
+'forceHTML5':true,
+'jsevents':true,
+'buffering':0,
+'title':'Rádio Demonstração',
+'welcome':'Bem Vindos',
+'wmode':'transparent',
+'skin':'uuskin',
+'width':166,
+'height':83
+});
+</script>
         </div>
         <div id="mostra"></div>
         </div>
