@@ -11,7 +11,7 @@ function moura() {
         res.innerHTML = `olá Bom dia,Seja Bem Vindo a nossa Webrádio Torre Forte, Jesus Te ama e certamente tem uma palavra e um louvor para o seu coração ${qual}`
         img.src = './img/1000448259-removebg-preview (2).png'
     } else if (hora < 18) {
-        img.src = '../img/1000448259-removebg-preview (2).png';
+        img.src = './img/1000448259-removebg-preview (2).png';
         res.innerHTML = `Olá Boa Tarde,Seja Bem Vindo a nossa rádio Torre Forte Jesus Te ama e certamente tem uma palavra e um louvor para o seu coração ${qual}`
     } else if (hora < 23) {
         img.src = './img/1000448259-removebg-preview (2).png'
