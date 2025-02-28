@@ -1,5 +1,5 @@
 function moura() {
-    var qual = prompt("Qual seu Nome?")
+    var qual = prompt("Qual o seu Nome?")
     const data = new Date()
     const hora = data.getHours();
     var img = document.getElementById("foto")
